@@ -9,7 +9,11 @@ int main() {
     int n;
     printf("Enter number of elements: ");
     scanf("%d", &n);
-    int arr[10];
+    if(n > 100) {
+        printf("Maximum allowed elements is 100.\n");
+        return 1;
+    }
+    int arr[100];
     scan_array(arr, n);
     
     printf("Unsorted array: \n");

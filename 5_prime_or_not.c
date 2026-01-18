@@ -10,9 +10,8 @@ int main() {
             printf("%d is not a prime number\n", i);
             continue;
         }
-
         flag = 0; // Assume number is prime
-
+        
         // Check divisibility from 2 to i/2 or use there -1 
         for(int j = 2; j <= i / 2; j++) {
             if(i % j == 0) {
@@ -20,14 +19,11 @@ int main() {
                 break;
             }
         }
-
         if(flag == 0){
-            // printf("%d is a prime number :", i);
             odd[count_odd] = i;
             count_odd++;
         } 
         else {
-            // printf("%d is not a prime number\n", i);
             even[count_even] = i;
             count_even++;
         }

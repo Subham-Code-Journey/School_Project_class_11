@@ -12,5 +12,6 @@ int main() {
         t1 = t2;
         t2 = nextTerm;
     }
+    printf("\b\b \n"); // To remove the last comma and space
     return 0;
 }

@@ -9,7 +9,7 @@ int main() {
     fgets(str, sizeof(str), stdin);
     while (*ptr != '\0') {
         length++;
-        printf("Current character: %c, Length: %d\n", *ptr, length);
+        // printf("Current character: %c, Length: %d\n", *ptr, length);
         ptr++;
     }
 
@@ -23,8 +23,9 @@ int main() {
     length++;
     ptr++;
     printf("Current character: %c, Length: %d\n", *ptr, length);
+    printf("\n\nLength of the string is: %d\n", length - 1); // subtract 1 to exclude newline character
 */
 
-    printf("\n\nLength of the string is: %d\n", length - 1); // subtract 1 to exclude newline character
+    printf("Length of the string is: %d\n", length - 1); // subtract 1 to exclude newline character
     return 0;
 }

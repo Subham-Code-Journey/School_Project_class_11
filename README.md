@@ -4,7 +4,7 @@
 
 1. Reverce Number 
 2. Sum and Product of a digit 0of an integar
-3. Sum of n terms 1 + 1/2 + 1/3 + 1/4 + ... 1/n terms 
+3. Sum of n terms 1 + 1/2 + 1/3 + 1/4 + ... + 1/n terms 
 4. Palindrame Number 
 5. Prime or not(1-100)
 6. Factorial Using recursive 
